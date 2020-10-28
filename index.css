@@ -40,6 +40,17 @@ blockquote:before, blockquote:after, q:before, q:after {
 blockquote, q {
 	quotes: "" "";
     }
+
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    border:1px solid black;
+}
+
+html{
+    font-size:62.5%;
+}
     
 .plan{
     background-color:#FF764E;
@@ -69,8 +80,18 @@ footer{
     background-color:#F9E7DC;
 }
 
-a{
+nav{
+    padding:1%;
+    margin:0 auto;
+}
+
+.plan, .learn, .get{
     color:white;
+    width:10%;
+    padding:5px;
+    margin:0 auto;
+    border-radius:10%;
+    text-decoration:none;
 }
 
 .bold{
@@ -81,7 +102,12 @@ nav{
     width:100%;
 }
 
-.circle img{
+.intro img{
     width:20%;
     border-radius:50%;
+    margin:0 auto;
+}
+
+.intro{
+    display:inline;
 }
