@@ -50,6 +50,7 @@ blockquote, q {
 img{
     width:100%;
     margin:0 auto;
+    height:auto;
 }
 
 html{
@@ -70,6 +71,7 @@ html{
 
 header,body,footer{
     font-family: 'Roboto Mono', monospace;
+    font-weight:100;
 }
 
 h1{
@@ -105,7 +107,7 @@ nav{
 }
 
 .bold{
-    font-weight:900;
+    font-weight:700;
 }
 
 nav{
