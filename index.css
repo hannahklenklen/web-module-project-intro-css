@@ -45,7 +45,11 @@ blockquote, q {
     box-sizing:border-box;
     padding:0;
     margin:1%;
-    border:1px solid black;
+}
+
+img{
+    width:100%;
+    margin:0 auto;
 }
 
 html{
@@ -75,7 +79,7 @@ h1{
 .highlight p{
     background-color:#DDB9A3;
     padding:1%;
-    margin:0 1%;
+    margin:0 30%;
     text-align:center;
     color:white;
 }
@@ -101,7 +105,7 @@ nav{
 }
 
 .bold{
-    font-weight:bold;
+    font-weight:900;
 }
 
 nav{
@@ -128,4 +132,13 @@ div{
 
 .intro div h1,p{
     padding:2% 2% 2% 0;
+}
+
+.fire img, .camper img{
+    width:40%;
+}
+
+.fire, .camper{
+    margin:0 45%;
+    text-align:center;
 }
