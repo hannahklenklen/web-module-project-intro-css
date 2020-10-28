@@ -44,7 +44,7 @@ blockquote, q {
 *{
     box-sizing:border-box;
     padding:0;
-    margin:0;
+    margin:1%;
     border:1px solid black;
 }
 
@@ -72,8 +72,12 @@ h1{
     font-family: 'Chelsea Market', cursive;
 }
 
-.highlight{
+.highlight p{
     background-color:#DDB9A3;
+    padding:1%;
+    margin:0 1%;
+    text-align:center;
+    color:white;
 }
 
 footer{
@@ -83,15 +87,17 @@ footer{
 nav{
     padding:1%;
     margin:0 auto;
+    text-align:center;
 }
 
 .plan, .learn, .get{
     color:white;
-    width:10%;
+    width:5%;
     padding:5px;
     margin:0 auto;
-    border-radius:10%;
+    border-radius:1rem;
     text-decoration:none;
+    display:inline-block;
 }
 
 .bold{
@@ -105,9 +111,21 @@ nav{
 .intro img{
     width:20%;
     border-radius:50%;
+    margin:1%;
+    display:inline-block;
+}
+div{
+    display:inline-block;
+    padding:5% 0;
     margin:0 auto;
+    float:right;
 }
 
 .intro{
-    display:inline;
+    text-align:center;
+    margin:0 30%;
+}
+
+.intro div h1,p{
+    padding:2% 2% 2% 0;
 }
